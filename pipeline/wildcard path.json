@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Copy data1",
+				"name": "selected excel files to datalake",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
