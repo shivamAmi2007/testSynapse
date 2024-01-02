@@ -1,0 +1,48 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "DFamicus"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage2_accountKey": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_connectionString": {
+			"value": ""
+		},
+		"adlsg2_restapi_accountKey": {
+			"value": ""
+		},
+		"onPremise_password": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://datalakegen2two.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage2_properties_typeProperties_url": {
+			"value": "https://datalakegen2two.dfs.core.windows.net/"
+		},
+		"adlsg2_restapi_properties_typeProperties_url": {
+			"value": "https://datalakegen2two.dfs.core.windows.net/"
+		},
+		"onPremise_properties_typeProperties_host": {
+			"value": "C:\\xampp\\htdocs\\Synapse edited\\files"
+		},
+		"onPremise_properties_typeProperties_userId": {
+			"value": "311219"
+		},
+		"openweather_properties_typeProperties_url": {
+			"value": "https://api.openweathermap.org/data/2.5/weather?q=Raipur&appid=4c9c5640d42e2a4ed796276d54ff1c0e&units=metric"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
