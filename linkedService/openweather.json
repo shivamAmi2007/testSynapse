@@ -1,0 +1,13 @@
+{
+	"name": "openweather",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "RestService",
+		"typeProperties": {
+			"url": "https://api.openweathermap.org/data/2.5/weather?q=Raipur&appid=4c9c5640d42e2a4ed796276d54ff1c0e&units=metric",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}

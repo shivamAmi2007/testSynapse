@@ -1,0 +1,13 @@
+{
+	"name": "TestRestAPI",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "openweather",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "RestResource",
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

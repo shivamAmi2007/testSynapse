@@ -1,0 +1,18 @@
+{
+	"name": "pdfcopy",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "onpremise"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

@@ -1,0 +1,9 @@
+{
+	"name": "DFamicus",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "50d08349-83b5-4420-812f-c658f41d23da",
+		"tenantId": "76384ef1-539e-4e1f-84fd-c020b7f40ea6"
+	}
+}
