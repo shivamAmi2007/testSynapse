@@ -777,7 +777,7 @@
 			"properties": {
 				"activities": [
 					{
-						"name": "selected excel files to datalake",
+						"name": "selected excel",
 						"type": "Copy",
 						"dependsOn": [],
 						"policy": {
